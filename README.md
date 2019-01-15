@@ -2,6 +2,8 @@
 
 Estudo da AWS
 
+# Aws CLI
+
 # Udemy AWS
 
 Link do Curso: [AWS Essentials](https://www.udemy.com/aws-essentials)
@@ -72,3 +74,7 @@ Porcentagem de um periodo de um ano o arquivo está livre para acesso na S3
 Para um disponibilidade de 99,99% isso significa que 0.01% de chance que você não seja capaz de acessar o arquivo na S3 em um ano.
 
 Para cada 10.000 hora, você pode esperar que um total de um ano para cada arquivo possa não ser acessado
+
+## Lifecycle
+
+É possível determinar o ciclo de vida de um arquivo no S3, de acordo com a regra é possivel determinar quanto tempo ele fica no Bucket como standard, glacier,Infrequent Access e outros.
